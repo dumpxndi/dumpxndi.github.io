@@ -1,14 +1,28 @@
-div {
-  display: block;
-  float: left;
+html,body {
+  background-color:#FFFFFF;
+ width:100%;
+  height:100%;
 }
+
+
+div {
+  display:block;
+  float:left;
+  justify-content: center;
+   align-items: center;
+}
+
 #wrapper {
   margin: 0 auto;
+  
 }
 
 #wrapper1 {
   margin: 0 auto;
-  margin-left: 19%;
+  margin-left: 20%;
+  margin-right: 9%;
+  
+
 }
 body {
   background-image: url("bg2.png");
@@ -222,18 +236,6 @@ q {
     display: inline-block;
     margin-left: 0px;
   }
-  .active,
-  .dot:hover {
-    display: flex;
-  }
-  .dot {
-    display: flex;
-  }
-  #dot-container {
-    margin-top: 40px;
-    float: left;
-    margin-left: 0px;
-  }
   .next {
     width: 20px;
     margin-top: 40%;
@@ -264,18 +266,6 @@ q {
   }
   .slideshow-container {
     display: inline-block;
-    margin-left: 0px;
-  }
-  .active,
-  .dot:hover {
-    display: flex;
-  }
-  .dot {
-    display: flex;
-  }
-  #dot-container {
-    margin-top: 40px;
-    float: left;
     margin-left: 0px;
   }
   .next {
