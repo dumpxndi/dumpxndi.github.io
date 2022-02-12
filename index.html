@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROSTER-XRPL2</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+   
+</head>
+<body>
+  <h1 class="banner">ROSTER X RPL <br> SEMESTER 2</h1>
+
+    <div id="wrapper1">
+      <div class="hariq">
+        <h5>SENIN</h5> 
+        <div class="mapel">
+            <p> Pemrograman Dasar </p>
+            <hr>
+            <p> Bahasa Indonesia</p>
+            <hr>
+            <p> Desain Grafis</p>
+            <hr>
+            
+            </div>
+    </div>
+   <div class="hariq">
+    <h5>SELASA</h5>
+      <div class="mapel">
+        <p> Bahasa Sunda</p>
+        <hr>
+        <p class="padding">Matematika</p>
+        <hr>
+        <p> Bahasa Inggris</p>
+        <hr>
+        <p> PABP</p>
+      </div>
+   </div>
+  
+  <div class="hariq">
+      <h5>RABU</h5>
+    
+    <div class="mapel">
+      <p>Bahasa Indonesia</p>
+      <hr>
+      <p class="padding">PJOK</p>
+      <hr>
+      <p>Seni Budaya</p>
+       <hr>
+       <p>Sejarah</p>
+    </div>
+  </div>
+    <div class="hariq">
+      <h5>KAMIS</h5>
+   
+    <div class="mapel">
+      <p class="padding">Kimia</p>
+      <hr>
+      <p class="padding">Fisika</p>
+      <hr>
+      <p>Pemrograman Dasar</p>
+      <hr>
+      <p>Matematika</p>
+    </div>
+  </div>
+  <div class="hariq">
+    <h5>JUM'AT</h5>
+    <div class="mapel">
+      <p>Simulasi Digital</p>
+      <hr>
+      <p class="padding">PPKN</p>
+      <hr>
+      <p>Pemrograman Dasar</p>
+      <hr>
+      <p></p>
+      
+    </div>
+  </div>
+    <div class="slideshow-container">
+      <div id="wrapper1">
+        <div class="hari">
+          <h5>SENIN</h5> 
+          <div class="mapel">
+              <p> Pemrograman Dasar </p>
+              <hr>
+              <p> Bahasa Indonesia</p>
+              <hr>
+              <p> Desain Grafis</p>
+              <hr>
+              
+              </div>
+      </div>
+     <div class="hari">
+      <h5>SELASA</h5>
+        <div class="mapel">
+          <p> Bahasa Sunda</p>
+          <hr>
+          <p class="padding">Matematika</p>
+          <hr>
+          <p> Bahasa Inggris</p>
+          <hr>
+          <p> PABP</p>
+        </div>
+     </div>
+    
+    <div class="hari">
+        <h5>RABU</h5>
+      
+      <div class="mapel">
+        <p>Bahasa Indonesia</p>
+        <hr>
+        <p class="padding">PJOK</p>
+        <hr>
+        <p>Seni Budaya</p>
+         <hr>
+         <p>Sejarah</p>
+      </div>
+    </div>
+      <div class="hari">
+        <h5>KAMIS</h5>
+     
+      <div class="mapel">
+        <p class="padding">Kimia</p>
+        <hr>
+        <p class="padding">Fisika</p>
+        <hr>
+        <p>Pemrograman Dasar</p>
+        <hr>
+        <p>Matematika</p>
+      </div>
+    </div>
+    <div class="hari">
+      <h5>JUM'AT</h5>
+      
+      <div class="mapel">
+        <p>Simulasi Digital</p>
+        <hr>
+        <p class="padding">PPKN</p>
+        <hr>
+        <p>Pemrograman Dasar</p>
+        <hr>
+        <p></p>
+      </div>
+      
+    </div>
+
+
+  </div>
+ 
+     </div>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+
+
+
+<div id="dot-container">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+</div> 
+<script>
+  var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("hari");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+} 
+</script>
+</body>
+</html>
