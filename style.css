@@ -169,7 +169,7 @@ body {
   position: absolute;
   top: 80px;
   width: auto;
-  margin-top: 50%;
+  margin-top: 70%;
   padding: 16px;
   color: #888;
   font-weight: bold;
@@ -277,7 +277,7 @@ q {
     margin: 0 auto;
     padding: 0px;
     background-attachment: fixed;
-    background-position-y: 500px;
+    background-position-y: 900px;
   }
   .hariq {
     display: none;
