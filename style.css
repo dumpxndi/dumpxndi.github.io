@@ -177,6 +177,7 @@ body {
   border-radius: 0 8px 8px 0;
   user-select: none;
   padding-right: 6px;
+  display: none;
 }
 
 .next {
@@ -258,7 +259,7 @@ q {
   }
   .next {
     width: 20px;
-    margin-top: 50%;
+    margin-top: 60%;
   }
   .banner {
     font-size: 20px;
@@ -299,6 +300,7 @@ q {
   }
   .next {
     width: 20px;
+    display: block;
   }
   .banner {
     font-size: 22px;
