@@ -277,6 +277,7 @@ q {
     margin: 0 auto;
     padding: 0px;
     background-attachment: fixed;
+    background-position-y: 300px;
   }
   .hariq {
     display: none;
@@ -300,8 +301,9 @@ q {
     width: 20px;
   }
   .banner {
-    font-size: 20px;
+    font-size: 22px;
     margin-top: 30px;
     color: black;
+    line-height: 31px;
   }
 }
