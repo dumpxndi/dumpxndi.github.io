@@ -45,6 +45,7 @@ body {
   text-align: center;
   font-family: "Press Start 2P", cursive;
   margin-bottom: 5px;
+  font-size: 50px;
 }
 .hariq h5 {
   --b: 4px; 
@@ -191,39 +192,6 @@ body {
   color: white;
 }
 
-.dot-container {
-  text-align: center;
-  padding: 20px;
-  background: #ddd;
-  display: none;
-}
-
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-  display: none;
-}
-
-.active,
-.dot:hover {
-  background-color: #717171;
-  display: none;
-}
-
-q {
-  font-style: italic;
-}
-
-.author {
-  color: cornflowerblue;
-}
-
 @media (max-width: 600px) {
   html{
     width: 300px;
@@ -290,7 +258,7 @@ q {
   }
   #wrapper1 {
 <<<<<<< HEAD
-    margin-left: 27px;
+    margin-left: 26px;
 =======
     margin: auto;
 >>>>>>> a17b85d (first commit)
