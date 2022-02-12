@@ -258,7 +258,7 @@ q {
   }
   .next {
     width: 20px;
-    margin-top: 40%;
+    margin-top: 50%;
   }
   .banner {
     font-size: 20px;
@@ -277,7 +277,7 @@ q {
     margin: 0 auto;
     padding: 0px;
     background-attachment: fixed;
-    background-position-y: 300px;
+    background-position-y: 500px;
   }
   .hariq {
     display: none;
